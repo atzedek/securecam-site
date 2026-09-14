@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SecureCam</title>
+<style>
+  :root { --ink: #14201B; --muted: #5A6B62; --bg: #F3F6F4; --surface: #fff; --border: #D7E0DA; --accent: #1E8F62; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #F1F5F9; --muted: #94A3B8; --bg: #0B0F14; --surface: #151B24; --border: #263243; --accent: #6CE5B1; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Segoe UI", Heebo, Arial, sans-serif; line-height: 1.65; padding: 40px 20px 64px; }
+  main { max-width: 640px; margin: 0 auto; display: grid; gap: 28px; }
+  h1 { font-size: 2rem; margin: 0; }
+  p { margin: 0; max-width: 60ch; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 22px 26px; display: grid; gap: 10px; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); font-size: .92rem; }
+  [lang="en"] { direction: ltr; text-align: left; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>SecureCam</h1>
+    <p>הופכת טלפון Android ישן למצלמת אבטחה ביתית. הקלטה בזיהוי תנועה, שמירה ב-Google Drive הפרטי שלך, ללא שרתים וללא מנוי אחסון.</p>
+    <p class="muted">האפליקציה בשלב בדיקות סגור. אין עדיין הפצה ציבורית.</p>
+    <p><a href="privacy.html">מדיניות פרטיות</a></p>
+  </div>
+  <div class="card" lang="en">
+    <h1>SecureCam</h1>
+    <p>Turns an old Android phone into a home security camera. Motion-triggered recording, saved to your own Google Drive, with no servers and no storage subscription.</p>
+    <p class="muted">Currently in closed testing. Not yet publicly available.</p>
+    <p><a href="privacy.html#en">Privacy policy</a></p>
+  </div>
+</main>
+</body>
+</html>
