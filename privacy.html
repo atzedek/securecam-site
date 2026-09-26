@@ -25,26 +25,26 @@
 
   <section id="he">
     <h1>SecureCam – מדיניות פרטיות</h1>
-    <p class="meta">עדכון אחרון: 14 בספטמבר 2026</p>
+    <p class="meta">עדכון אחרון: 26 בספטמבר 2026</p>
 
     <p>SecureCam היא אפליקציית Android שהופכת טלפון למצלמת אבטחה ביתית. המדיניות הזו מסבירה אילו נתונים האפליקציה מעבדת, איפה הם נשמרים, ומה אנחנו לא עושים.</p>
 
     <h2>העיקרון</h2>
-    <p>אין לנו שרתים. שום סרטון, תמונה או הקלטת קול לא מגיעים אלינו. כל מה שהאפליקציה מקליטה נשמר בטלפון שלך ובחשבון Google Drive שלך בלבד.</p>
+    <p>אין לנו שרתי אחסון. שום סרטון, תמונה או הקלטת קול לא נשמרים אצלנו. כל מה שהאפליקציה מקליטה נשמר בטלפון שלך ובחשבון Google Drive שלך בלבד.</p>
 
     <h2>נתונים שהאפליקציה מעבדת</h2>
     <ul>
       <li><strong>מצלמה.</strong> תמונות מהמצלמה מנותחות בטלפון לזיהוי תנועה. תמונות שאין בהן תנועה נמחקות מיד ואינן נשמרות.</li>
       <li><strong>וידאו ושמע.</strong> כשמזוהה תנועה נשמר קליפ בטלפון. שמע מוקלט רק אם הפעלת זאת בהגדרות. הקליפ מועלה לתיקייה בשם SecureCam ב-Google Drive שלך, ולאחר העלאה מוצלחת נמחק מהטלפון, אלא אם בחרת לשמור עותק מקומי.</li>
       <li><strong>חשבון Google.</strong> כתובת המייל של החשבון שחיברת נשמרת בטלפון כדי לשייך כל קליפ לחשבון הנכון. האפליקציה מבקשת הרשאת Drive מסוג drive.file, שמאפשרת לה לראות ולנהל רק קבצים שהיא עצמה יצרה.</li>
-      <li><strong>צפייה ישירה (גרסת ניסוי).</strong> וידאו חי עובר ישירות בין הטלפון המצלם לטלפון הצופה, שניהם באותו חשבון Google. הודעות התיאום לחיבור נשמרות בקבצים פרטיים ב-Drive שלך ונמחקות בסיום. אין שרת מתווך של הווידאו.</li>
+      <li><strong>צפייה חיה.</strong> וידאו חי עובר בין הטלפון המצלם לטלפון הצופה, שניהם באותו חשבון Google, ומוצפן מקצה לקצה (WebRTC). כשאין נתיב ישיר בין הרשתות, הווידאו המוצפן עובר דרך שרת ממסר של Cloudflare, שאינו יכול לפענח אותו ורואה רק כתובות רשת. לקבלת גישה לממסר האפליקציה שולחת את אסימון הכניסה של Google לרכיב קטן שלנו ב-Cloudflare, שבודק אותו מול Google ואינו שומר אותו. הודעות התיאום נשמרות בשני קבצים פרטיים ב-Drive שלך כל עוד המצלמה משותפת, ונמחקות כשמפסיקים את השיתוף.</li>
       <li><strong>הגדרות ויומן.</strong> העדפות ויומן אירועים קצר (למשל ״המצלמה הופעלה״, ״הסרטון הועלה״) נשמרים בטלפון בלבד.</li>
     </ul>
 
     <h2>מה אנחנו לא עושים</h2>
     <ul>
       <li>לא אוספים סרטונים, תמונות, שמע, מיקום או אנשי קשר.</li>
-      <li>לא משתמשים בשירותי אנליטיקה או פרסום, ולא מעבירים נתונים לצדדים שלישיים.</li>
+      <li>לא משתמשים בשירותי אנליטיקה או פרסום, ולא מעבירים נתונים לצדדים שלישיים, מלבד ממסר הווידאו המוצפן שמתואר למעלה.</li>
       <li>לא מגבים את נתוני האפליקציה לענן של Android; גיבוי מכשיר והעברה בין מכשירים מוחרגים במפורש.</li>
     </ul>
 
@@ -55,7 +55,7 @@
     <ul>
       <li>מצלמה ומיקרופון: להקלטה.</li>
       <li>שירות קדמי (מצלמה ומיקרופון) והתראות: כדי שהניטור ימשיך כשהמסך כבוי, עם התראה קבועה.</li>
-      <li>אינטרנט ומצב רשת: להעלאה ל-Drive ולצפייה ישירה.</li>
+      <li>אינטרנט ומצב רשת: להעלאה ל-Drive ולצפייה חיה.</li>
     </ul>
 
     <h2>שליטה ומחיקה</h2>
@@ -74,26 +74,26 @@
 
   <section id="en" lang="en">
     <h1>SecureCam – Privacy Policy</h1>
-    <p class="meta">Last updated: September 14, 2026</p>
+    <p class="meta">Last updated: September 26, 2026</p>
 
     <p>SecureCam is an Android app that turns a phone into a home security camera. This policy explains what data the app processes, where it is stored, and what we do not do.</p>
 
     <h2>The principle</h2>
-    <p>We run no servers. No video, image or audio ever reaches us. Everything the app records stays on your phone and in your own Google Drive account.</p>
+    <p>We run no storage servers. No video, image or audio is ever stored by us. Everything the app records stays on your phone and in your own Google Drive account.</p>
 
     <h2>Data the app processes</h2>
     <ul>
       <li><strong>Camera.</strong> Camera frames are analyzed on the phone to detect motion. Frames without motion are discarded immediately and never stored.</li>
       <li><strong>Video and audio.</strong> When motion is detected, a clip is saved on the phone. Audio is recorded only if you enable it in settings. The clip is uploaded to a folder named SecureCam in your Google Drive and deleted from the phone after a successful upload, unless you chose to keep a local copy.</li>
       <li><strong>Google account.</strong> The email address of the account you connect is stored on the phone so each clip is attributed to the right account. The app requests the Drive scope drive.file, which lets it see and manage only files it created itself.</li>
-      <li><strong>Direct live view (experimental).</strong> Live video travels directly between the camera phone and the viewer phone, both signed in to the same Google account. Connection messages are stored in private files in your Drive and deleted afterwards. No server relays the video.</li>
+      <li><strong>Live view.</strong> Live video travels between the camera phone and the viewer phone, both signed in to the same Google account, and is end-to-end encrypted (WebRTC). When the two networks have no direct path, the encrypted video passes through a Cloudflare relay server, which cannot decrypt it and sees only network addresses. To get relay access, the app sends its Google sign-in token to a small SecureCam function on Cloudflare, which checks it with Google and does not store it. Connection messages are kept in two private files in your Drive while the camera is shared, and deleted when you stop sharing.</li>
       <li><strong>Settings and log.</strong> Preferences and a short event log (for example "Camera started", "Clip uploaded") are stored on the phone only.</li>
     </ul>
 
     <h2>What we do not do</h2>
     <ul>
       <li>We do not collect video, images, audio, location or contacts.</li>
-      <li>We use no analytics or advertising services and share no data with third parties.</li>
+      <li>We use no analytics or advertising services and share no data with third parties, apart from the encrypted video relay described above.</li>
       <li>App data is excluded from Android cloud backup and device-to-device transfer.</li>
     </ul>
 
@@ -104,7 +104,7 @@
     <ul>
       <li>Camera and microphone: recording.</li>
       <li>Foreground service (camera and microphone) and notifications: monitoring continues with the screen off, with a persistent notification.</li>
-      <li>Internet and network state: Drive uploads and direct live view.</li>
+      <li>Internet and network state: Drive uploads and live view.</li>
     </ul>
 
     <h2>Control and deletion</h2>
