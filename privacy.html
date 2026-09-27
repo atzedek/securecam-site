@@ -25,7 +25,7 @@
 
   <section id="he">
     <h1>SecureCam – מדיניות פרטיות</h1>
-    <p class="meta">עדכון אחרון: 26 בספטמבר 2026</p>
+    <p class="meta">עדכון אחרון: 27 בספטמבר 2026</p>
 
     <p>SecureCam היא אפליקציית Android שהופכת טלפון למצלמת אבטחה ביתית. המדיניות הזו מסבירה אילו נתונים האפליקציה מעבדת, איפה הם נשמרים, ומה אנחנו לא עושים.</p>
 
@@ -38,6 +38,7 @@
       <li><strong>וידאו ושמע.</strong> כשמזוהה תנועה נשמר קליפ בטלפון. שמע מוקלט רק אם הפעלת זאת בהגדרות. הקליפ מועלה לתיקייה בשם SecureCam ב-Google Drive שלך, ולאחר העלאה מוצלחת נמחק מהטלפון, אלא אם בחרת לשמור עותק מקומי.</li>
       <li><strong>חשבון Google.</strong> כתובת המייל של החשבון שחיברת נשמרת בטלפון כדי לשייך כל קליפ לחשבון הנכון. האפליקציה מבקשת הרשאת Drive מסוג drive.file, שמאפשרת לה לראות ולנהל רק קבצים שהיא עצמה יצרה.</li>
       <li><strong>צפייה חיה.</strong> וידאו חי עובר בין הטלפון המצלם לטלפון הצופה, שניהם באותו חשבון Google, ומוצפן מקצה לקצה (WebRTC). כשאין נתיב ישיר בין הרשתות, הווידאו המוצפן עובר דרך שרת ממסר של Cloudflare, שאינו יכול לפענח אותו ורואה רק כתובות רשת. לקבלת גישה לממסר האפליקציה שולחת את אסימון הכניסה של Google לרכיב קטן שלנו ב-Cloudflare, שבודק אותו מול Google ואינו שומר אותו. הודעות התיאום נשמרות בשני קבצים פרטיים ב-Drive שלך כל עוד המצלמה משותפת, ונמחקות כשמפסיקים את השיתוף.</li>
+      <li><strong>מצב מצלמה בדפדפן (אייפון וטלפונים אחרים).</strong> באתר securecam.cc/camera הדפדפן מזהה תנועה בטלפון עצמו ומעלה קליפים ישירות לתיקיית SecureCam ב-Google Drive שלך; קליפים שממתינים להעלאה נשמרים רק באחסון של אותו דפדפן. כדי שהמצלמה תוכל לפעול שעות, חידוש ההתחברות ל-Google עובר דרך רכיב קטן של SecureCam ב-Cloudflare שמוסיף את מפתח הלקוח של האפליקציה ואינו שומר דבר; מפתח החידוש נשמר בטלפון שלך ומבוטל בהתנתקות.</li>
       <li><strong>הגדרות ויומן.</strong> העדפות ויומן אירועים קצר (למשל ״המצלמה הופעלה״, ״הסרטון הועלה״) נשמרים בטלפון בלבד.</li>
     </ul>
 
@@ -74,7 +75,7 @@
 
   <section id="en" lang="en">
     <h1>SecureCam – Privacy Policy</h1>
-    <p class="meta">Last updated: September 26, 2026</p>
+    <p class="meta">Last updated: September 27, 2026</p>
 
     <p>SecureCam is an Android app that turns a phone into a home security camera. This policy explains what data the app processes, where it is stored, and what we do not do.</p>
 
@@ -87,6 +88,7 @@
       <li><strong>Video and audio.</strong> When motion is detected, a clip is saved on the phone. Audio is recorded only if you enable it in settings. The clip is uploaded to a folder named SecureCam in your Google Drive and deleted from the phone after a successful upload, unless you chose to keep a local copy.</li>
       <li><strong>Google account.</strong> The email address of the account you connect is stored on the phone so each clip is attributed to the right account. The app requests the Drive scope drive.file, which lets it see and manage only files it created itself.</li>
       <li><strong>Live view.</strong> Live video travels between the camera phone and the viewer phone, both signed in to the same Google account, and is end-to-end encrypted (WebRTC). When the two networks have no direct path, the encrypted video passes through a Cloudflare relay server, which cannot decrypt it and sees only network addresses. To get relay access, the app sends its Google sign-in token to a small SecureCam function on Cloudflare, which checks it with Google and does not store it. Connection messages are kept in two private files in your Drive while the camera is shared, and deleted when you stop sharing.</li>
+      <li><strong>Camera mode in the browser (iPhone and other phones).</strong> On securecam.cc/camera the browser detects motion on the phone itself and uploads clips straight to the SecureCam folder in your Google Drive; clips waiting for upload are kept only in that browser's storage. So the camera can run for hours, Google sign-in renewal goes through a small SecureCam function on Cloudflare that adds the app's Google client secret and stores nothing; the renewal key stays on your phone and is revoked when you sign out.</li>
       <li><strong>Settings and log.</strong> Preferences and a short event log (for example "Camera started", "Clip uploaded") are stored on the phone only.</li>
     </ul>
 
